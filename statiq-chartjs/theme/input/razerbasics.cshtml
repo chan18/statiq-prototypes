@@ -1,0 +1,43 @@
+
+<!-- as i expariment with statiq, i was learning chhtlm/razer pages  -->
+
+<!-- C# code goes here -->
+@{
+  var name = "chandu";
+  var isTrue = true;
+}
+
+<!-- use C# var in here -->
+Hello, @name Your age is: <b>@(5+5).</b>
+
+<!-- C# for loop example -->
+@{
+    var greeting = "Hello, world!";
+    
+    for(int i = 1; i <= 3; i++)
+    {
+        <p> @greeting (@i) </p>
+    }
+}
+
+@if(isTrue)
+{
+    var text = "Code goes here...";
+    @:Plain text goes here...
+}
+
+@if(isTrue)
+{
+    var text = "Code goes here...";
+    <text>Plain text goes here...</text>
+}
+
+@{
+    string divStyle = null;
+   
+}
+
+
+<div style="@divStyle">Hello, world!</div>
+
+
