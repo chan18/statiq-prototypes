@@ -1,0 +1,33 @@
+@*  A one-line code comment. *@
+
+@*
+    This is a multiline code comment.
+    It can continue for any number of lines.
+*@
+
+
+@{
+    @* This is a comment. *@
+    var theVar = 17;
+}
+
+
+@{ var myMessage = "Hello World"; }
+
+
+@{
+var greeting = "Welcome to our site!";
+var weekDay = DateTime.Now.DayOfWeek;
+var greetingMessage = greeting + " Here in Huston it is: " + weekDay;
+}
+
+<p>The greeting is: @greetingMessage</p>
+
+
+@* A string is a sequence of characters that are treated as text. To specify a string, you enclose it in double quotation marks: *@
+
+@{ var welcomeMessage = "Welcome, new members!"; }
+<p>@welcomeMessage</p>
+
+
+@{ var year = DateTime.Now.Year; }
