@@ -1,0 +1,22 @@
+@inherits StatiqRazorPage<IDocument>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example Title</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/assets/styles.css" rel="stylesheet" />
+</head>
+    <body class="bg-red-300">
+        <main class="mx-auto container">
+            <h2 class="text-2xl font-semibold">
+                @Model.GetString("Title")
+            </h2>
+            <article>
+                @RenderBody()
+            </article>
+        </main>
+    </body>
+</html>
+

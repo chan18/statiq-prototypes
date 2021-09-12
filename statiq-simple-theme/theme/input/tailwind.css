@@ -1,0 +1,10 @@
+/* 
+typically we'd call tailwind base here to reset the default styles, but for our little demo 
+we'll leave it commented out.
+*/
+
+/*
+@tailwind base; 
+*/
+@tailwind components;
+@tailwind utilities;
